@@ -1,0 +1,28 @@
+{
+	"name": "baggage",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server": "vite"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel": "^2.8.1",
+		"process": "^0.11.10"
+	},
+	"dependencies": {
+		"@opentelemetry/api": "^1.3.0",
+		"@opentelemetry/context-zone": "^1.8.0",
+		"@opentelemetry/core": "^1.8.0",
+		"@opentelemetry/instrumentation": "^0.34.0",
+		"@opentelemetry/instrumentation-xml-http-request": "^0.34.0",
+		"@opentelemetry/resources": "^1.8.0",
+		"@opentelemetry/sdk-trace-web": "^1.8.0",
+		"@opentelemetry/semantic-conventions": "^1.8.0",
+		"vite": "^4.0.1"
+	}
+}
